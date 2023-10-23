@@ -1,0 +1,1 @@
+ mex  -compatibleArrayDims BhattacharyyaCoefficient.cpp

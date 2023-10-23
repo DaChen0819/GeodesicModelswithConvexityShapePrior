@@ -1,0 +1,11 @@
+set(AlgebraDataSturctures_Headers
+	${CMAKE_CURRENT_SOURCE_DIR}/arraynd.h
+	${CMAKE_CURRENT_SOURCE_DIR}/arrayndfloat.h
+	${CMAKE_CURRENT_SOURCE_DIR}/couple.h
+	${CMAKE_CURRENT_SOURCE_DIR}/triplet.h
+	${CMAKE_CURRENT_SOURCE_DIR}/arrayndfloat.cpp
+	PARENT_SCOPE
+	)
+
+
+set(PROJECT_DIR ${PROJECT_DIR} ${CMAKE_CURRENT_SOURCE_DIR} PARENT_SCOPE)
