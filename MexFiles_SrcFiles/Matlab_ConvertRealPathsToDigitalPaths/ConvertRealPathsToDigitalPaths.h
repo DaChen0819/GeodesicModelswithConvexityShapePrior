@@ -6,7 +6,7 @@
 #include "couple.h"
 #include "triplet.h"
 #include "path_Simplified.h"
-
+#include  <memory>
 
 template<typename IO>
 int Run(IO& io){
