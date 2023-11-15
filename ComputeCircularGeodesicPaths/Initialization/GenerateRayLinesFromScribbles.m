@@ -94,7 +94,7 @@ for h=0:0.5:10000000
         break;
     end
 end
-[~,mDigPath]=ConvertToDigitalPath(mRealPath,numRows,numCols);
+[~,mDigPath]=ConvertRealPathsToDigitalPaths(mRealPath,[numRows;numCols]);
 
 end
 
@@ -131,7 +131,7 @@ for h=0:0.5:10000000
         break;
     end
 end
-[~,mDigPath]=ConvertToDigitalPath(mRealPath,numRows,numCols);
+[~,mDigPath]=ConvertRealPathsToDigitalPaths(mRealPath,[numRows;numCols]);
 
 end
 
